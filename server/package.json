@@ -1,0 +1,34 @@
+{
+  "name": "flatpack",
+  "version": "1.0.0",
+  "description": "flatpack is a web browser tool for visual editing of magazin/book page layout",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codekettle/flatpack.git"
+  },
+  "keywords": [
+    "flat-planning",
+    "nodeJS",
+    "layout",
+    "tools",
+    "nodeJS",
+    "drag&drop"
+  ],
+  "author": "codekettle (https://github.com/codekettle)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codekettle/flatpack/issues"
+  },
+  "homepage": "https://github.com/codekettle/flatpack#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cors": "^2.8.3",
+    "express": "^4.15.2",
+    "mongoose": "^4.9.5",
+    "morgan": "^1.8.1"
+  }
+}
