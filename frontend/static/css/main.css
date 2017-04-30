@@ -1,4 +1,3 @@
-/* Custom css styles for project */
 
 html, body {
     margin:0;
@@ -7,36 +6,66 @@ html, body {
     font-family: sans-serif;
     color: #2D302A;
     min-height: 100%;
+    line-height: 1.5;
 }
 
 a {
     text-decoration: none;
+    color: #2D302A;
 }
 
 footer {
-    background-color: #D6E5E1;
-    /*position: fixed;*/
+    margin-bottom: 0;
     width: 100%;
     bottom: 0;
-    height: 60px;
+    height: 100px;
 }
 
-footer p {
-    padding-top: 2%;
-}
 
 fieldset {
     border-radius: 5px;
+    margin-bottom: 10px;
 }
 
 input {
     border-radius: 5px;
+    font-size: 15px;
+    line-height: 1.5;
+    display: block;
+    width: 95%;
+}
+
+.btn {
+    cursor: pointer;
+    color: #ffffff;
+    background: #2D302A;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+.btn-auth {
+    margin: 5px 10px 5px 0;
+}
+
+form label {
+    font-weight: bold;
 }
 
 #header-banner {
-    background-color: #D6E5E1;
     text-align: center;
     padding: 1.5em;
+}
+
+.background-gradient {
+    background-color: #D6E5E1;
+    background: linear-gradient(#C7D6C9, #D6E5E1);
+}
+
+.header-text {
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
 .nav-bar-fixed > li {
@@ -45,57 +74,59 @@ input {
     padding: 0 1.5%;
 }
 
-.nav-bar-fixed > li > a {
-    margin-bottom: 2%;
+.nav-bar-link:hover {
+    color: #ffffff;
+    background-color:#575E52;
+    border-radius: 5px;
+    padding: 2px;
 }
 
 .logo {
     float: left;
 }
 
+
+/* Grid layout */
 .main-container {
-    max-width: 800px;
-    margin: 0 auto;
-    margin-bottom: 60px;
-}
-
-#intro-text {
-    overflow: auto;
-}
-
-.intro {
-    float: left;
-    padding: 5px auto;
-    margin:2%;
-    width: 60%;
+    display: grid;
+    grid-template-columns: 10% 55% 25% 10%;
+    grid-template-rows: 30% auto;
+    grid-column-gap: 2%
 }
 
 .hero-container {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
     text-align: center;
 }
 
-.signup {
-    /*float: right;*/
-    padding: 5px auto;
-    margin: 1%;
-    width: 30%;
+.intro-container {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    padding:0 10px;
+
 }
 
-.signup-fields input {
-    margin:1%;
+.signup-container {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
 }
 
-.btn {
-    /*border-radius: 5px;*/
-    /*border: solid 1px #575E52;*/
-    padding: 4px;
+.footer-content {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 10% auto;
+    height: 100px;
 }
 
-.btn-nav {
-    color: #ffffff;
-    background-color:#575E52;
+.footer-para {
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+    align-self: center;
+
 }
 
-.btn-auth {
-    display: inline-block;
-}
