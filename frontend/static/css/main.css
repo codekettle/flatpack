@@ -1,0 +1,101 @@
+/* Custom css styles for project */
+
+html, body {
+    margin:0;
+    padding:0;
+    font-size: 1em;
+    font-family: sans-serif;
+    color: #2D302A;
+    min-height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #D6E5E1;
+    /*position: fixed;*/
+    width: 100%;
+    bottom: 0;
+    height: 60px;
+}
+
+footer p {
+    padding-top: 2%;
+}
+
+fieldset {
+    border-radius: 5px;
+}
+
+input {
+    border-radius: 5px;
+}
+
+#header-banner {
+    background-color: #D6E5E1;
+    text-align: center;
+    padding: 1.5em;
+}
+
+.nav-bar-fixed > li {
+    display: inline-block;
+    float: right;
+    padding: 0 1.5%;
+}
+
+.nav-bar-fixed > li > a {
+    margin-bottom: 2%;
+}
+
+.logo {
+    float: left;
+}
+
+.main-container {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+#intro-text {
+    overflow: auto;
+}
+
+.intro {
+    float: left;
+    padding: 5px auto;
+    margin:2%;
+    width: 60%;
+}
+
+.hero-container {
+    text-align: center;
+}
+
+.signup {
+    /*float: right;*/
+    padding: 5px auto;
+    margin: 1%;
+    width: 30%;
+}
+
+.signup-fields input {
+    margin:1%;
+}
+
+.btn {
+    /*border-radius: 5px;*/
+    /*border: solid 1px #575E52;*/
+    padding: 4px;
+}
+
+.btn-nav {
+    color: #ffffff;
+    background-color:#575E52;
+}
+
+.btn-auth {
+    display: inline-block;
+}
