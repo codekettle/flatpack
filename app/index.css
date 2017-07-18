@@ -1,0 +1,225 @@
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Canterell, Helvetica Neue, sans-serif;
+    color: #2D302A;
+    line-height: 1.5;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    padding: 7px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    border-radius: 50%;
+}
+
+.nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+}
+
+.nav li {
+    padding: 10px;
+    letter-spacing: 2px;
+}
+
+.nav li:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.top-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background: -webkit-gradient(linear, left top, left bottom, from(#C7D6C9), to(#D6E5E1));
+    background: linear-gradient(#C7D6C9, #D6E5E1);
+    border: 2px solid #575E52;
+    
+}
+
+.top-header img {
+    margin: 10px;
+}
+
+.top-header h1 {
+    text-align: center;
+}
+
+.nav-links {
+    margin-right: 10px;
+}
+
+.hero-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.intro-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.intro-text {
+    width: 65%;
+}
+
+.intro-signup {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-right: 20px;
+    width: 30%;
+    padding-top: 5px;
+    border: 1px solid red;
+}
+
+.btn {
+    color: #fff;
+    background: rgba(87, 94, 82, 0.9);
+    font-size: 15px;
+    border-radius: 4px;
+    text-align: center;
+    margin: 5px auto;
+    padding: 7px 0;
+    width: 200px;
+}
+
+.btn:hover, .btn-signup:hover {
+    background: rgba(87, 94, 82, 1);
+}
+
+.signup-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: space-around;
+        -ms-flex-align: space-around;
+            align-items: space-around; 
+    width: 40%;  
+}
+
+.signup-form label {
+    font-weight: 600;
+    margin-right: 10px;
+    
+}
+
+.signup-form input {
+    border-radius: 3px;
+    width: 250px;
+    font-size: 16px;
+    -webkit-box-shadow: 1px 1px 4px #EBEBEB;
+            box-shadow: 1px 1px 4px #EBEBEB;
+    margin: 5px;
+    /*padding: 2px;*/
+    
+}
+
+.signup-form fieldset, .login-form fieldset {
+    border-radius: 3px;
+}
+
+.signup-form legend {
+    font-weight: bold;
+}
+
+.signup-form-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.form-btn-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.btn-form {
+    color: #fff;
+    background: rgba(87, 94, 82, 0.9);
+    font-size: 15px;
+    border-radius: 4px;
+    margin: 5px 0;
+    
+}
+
+.login-form {
+    margin-top: 10px;
+    width: 40%;
+}
+
+.login-form input {
+    width: 55%;
+    border-radius: 3px;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.login-form label {
+    font-weight: bold;
+}
+
+.login-form-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
